@@ -1,0 +1,49 @@
+html, body {
+  margin: 0dvb;
+  margin-left: -20dvb;
+  padding: -1;
+  height: 100%;
+}
+
+.container {
+  flex-direction: column;
+  min-height: 50vh;
+  min-width: none;
+}
+
+header {
+  width: 210vh;
+  height: 15vh;
+}
+
+footer {
+  min-width: 210vh;
+}
+
+.content-container {
+  flex-grow: 1;
+  width: 100%;
+  display: flex;
+}
+
+.sidebar {
+  background-color: #c6d1cc;
+  padding: 20px;
+  width: 100%;
+  flex-basis: 200px;
+}
+
+.content {
+  flex-grow: 1;
+  padding: 20px;
+  width: 100%;
+  margin-left: 20px;
+}
+
+html, body {
+  width: 100%;
+}
+
+.container {
+  width: 100%;
+}

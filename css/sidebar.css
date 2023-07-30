@@ -1,0 +1,29 @@
+/* styles.css */
+
+.navigationLeft {
+    background-color: #c3d4cc;
+    padding: 10px;
+    color: #fff;
+    width: 150px;
+    height: 240px;
+}
+
+.navigation ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+.navigation ul li {
+    margin-bottom: 10px;
+}
+
+.navigation ul li a {
+    text-decoration: none;
+    color: #e0dede;
+}
+.navigationLeft ul li:hover {background-color: #D6EEEE;}
+
+.main {
+    flex-grow: 1;
+    padding: 20px;
+}

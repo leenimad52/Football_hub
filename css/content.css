@@ -1,0 +1,57 @@
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+
+th, td {
+  text-align: left;
+  padding: 8px;
+}
+
+th {
+  background-color: #607D8B;
+
+}
+tr:nth-child(even) {
+  background-color:rgb(78, 131, 152);
+}
+tr:nth-child(odd) {
+  background-color: #8ebecb;
+}
+tr:hover {background-color: #D6EEEE;}
+
+
+a {
+  text-decoration: none;
+}
+
+.create-team-button {
+  display: block;
+  width: 200px;
+  margin: 0 auto;
+  padding: 10px;
+  text-align: center;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.create-team-button:hover {
+  background-color: #45a049;
+}

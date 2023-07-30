@@ -1,0 +1,53 @@
+
+/* Set the background color and center the content */
+body {
+  background-color: #f2f2f2;
+  text-align: center;
+}
+
+/* Style the logo */
+.logo img {
+  width: 1150px;
+  height:250px;
+}
+
+/* Style the header */
+header {
+  padding: 20px;
+}
+
+/* Style the welcome container */
+.welcome-container {
+  margin: 20px;
+}
+
+/* Style the welcome heading */
+.welcome-heading {
+  font-size: 24px;
+  color: #333;
+}
+
+/* Style the welcome description */
+.welcome-description {
+  font-size: 16px;
+  color: #777;
+  margin-bottom: 20px;
+}
+
+/* Style the welcome button */
+.welcome-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #0f953b;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+/* Style the horizontal rule */
+hr {
+  border: none;
+  border-top: 1px solid #ccc;
+  margin: 20px 0;
+}

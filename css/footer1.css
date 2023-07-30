@@ -1,0 +1,35 @@
+.footer {
+    background-color: #00676e;
+    color: #fff;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .small-logo-footer img {
+    width: 60px;
+    height: 60px;
+    padding-right: 10px;
+    padding-left: 20px;
+  }
+  
+  .footer-content {
+    
+    align-items: center;
+    margin-right: auto;
+  }
+  
+  .contact-info {
+   font-style: italic;
+   background-color: #92bdeb;
+    margin-left: 20px;
+  }
+  
+  a:hover {
+    background-color: #D6EEEE;
+}
+
+  .copy {
+    margin-left: auto;
+  }
+  

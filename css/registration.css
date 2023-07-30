@@ -1,0 +1,47 @@
+.container {
+  display: flex;
+  justify-content: space-evenly; /* Adjust spacing between sections */
+  align-items: center;
+  height: 60vh;
+  background-color:#e5f2f3;
+
+}
+
+.login-section,
+.signup-section {
+  width: 500px;
+  padding: 10px;
+  background-color: #94d2d3;
+  margin: 0px;
+}
+
+h2 {
+  text-align: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"],
+button {
+  padding: 10px;
+}
+
+button {
+  background-color: #003d3e;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+input:required {
+  background-color: rgb(134, 159, 163);
+}

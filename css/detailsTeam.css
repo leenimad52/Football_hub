@@ -1,0 +1,66 @@
+/* detailsTeam.css */
+
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 10px;
+  }
+  
+  h1 {
+    text-align: center;
+    padding-top: 5px;
+    height: 50px;
+    background-color: #00676e;
+
+  }
+  
+  h2 {
+    margin-top: 20px;
+  }
+  
+  h3 {
+    margin-bottom: 10px;
+  }
+  
+  .team-info {
+    margin-bottom: 20px;
+  }
+  
+  ul {
+    padding: 20px;
+  }
+  
+  
+  .dashboard-link {
+    display: block;
+    margin-top: 20px;
+    text-decoration: none;
+    color: #005f4f;
+  }
+  
+  .add-player-form {
+    margin-top: 30px;
+  }
+  
+  .add-player-form input[type="text"] {
+    width: 200px;
+    padding: 5px;
+    margin-right: 10px;
+  }
+  
+  .add-player-button {
+    padding: 5px 10px;
+  }
+  input:required {
+    background-color: rgb(76, 204, 146);
+  }
+ 
+  
+  

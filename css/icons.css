@@ -1,0 +1,17 @@
+/* Selector {
+  Property: Value;
+  PropertyTwo: Value;
+} */
+
+  
+ul {
+    list-style-image: url("../Images/download.png"); 
+  }
+  
+  ul ul{
+    list-style-image: url("../Images/download(1).png");
+  }
+
+  ol{
+    list-style-type:arabic-indic;
+  }
